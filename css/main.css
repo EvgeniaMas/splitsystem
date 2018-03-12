@@ -10486,3 +10486,46 @@ header .header-description-line {
       margin-left: 15px; }
 
 
+.icon{display:inline-block;vertical-align:top;position:relative;background:url(../img/icons.png) no-repeat}
+	.cost-icon{height:36px;margin-top:55px}
+		.cost-icon.i-1{width:33px;background-position:0 -44px;}
+		.cost-icon.i-2{width:34px;background-position:-35px -44px;}
+		.cost-icon.i-3{width:36px;background-position:-71px -44px;}
+		.cost-icon.i-4{width:34px;background-position:-110px -44px;}
+
+
+
+
+#cost{height:1216px;padding:140px 0 0;background:url(../img/cost-bg.jpg) center top no-repeat;color:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+	#cost h2{padding:0 0 0 20px}
+	.cost-item{position:absolute;width:385px;height:154px;}
+	.cost-item:hover .icon{-webkit-animation:shake-vertical 1 linear 1.2s;-moz-animation:shake-vertical 1 linear 0.8s;-o-animation:shake-vertical 1 linear 0.8s;animation:shake-vertical 1 linear 0.8s;}
+		.cost-item.i-1{top:219px;left:384px}
+		.cost-item.i-2{top:373px;left:-1px}
+		.cost-item.i-3{top:527px;left:384px}
+		.cost-item.i-4{top:681px;left:-1px}
+		.cost-image-wrapper{float:left;width:85px;height:154px;text-align:center;background-color: rgba(49,47,42,0.8);}
+		.cost-text{overflow:hidden; }
+		.cost-text-inner{display:table-cell;padding-right: 10px; width:px;height:154px;vertical-align:middle; background-color: rgba(49,47,42,0.8); 
+			}
+
+
+
+
+#steps{/*background:url(../images/steps-bg.jpg) center top no-repeat;*/padding:110px 0 0;}
+	.steps{padding:125px 0 0}
+		.step-item{height:168px;width:550px;position:relative;}
+		.step-item.right{margin-left:550px}
+			.step-icon-wrapper{position:absolute;right:0;top:0;}
+			.right .step-icon-wrapper{right:auto;left:0}
+				.step-icon{width:168px;height:168px;background:url(../img/steps.png) no-repeat;}
+					.step-icon.i-2{background-position:-170px 0}
+					.step-icon.i-3{background-position:-340px 0}
+					.step-icon.i-4{background-position:-510px 0}
+					.step-icon.i-5{background-position:-680px 0}
+				.step-counter{position:absolute;top:-6px;left:-2px;font:600 36px/36px Din;color:#65b9ed}
+			.step-text{text-align:right;margin-right:180px;}
+			.right .step-text{text-align:left;margin-left:180px;margin-right:0}
+			.step-text-inner{display:table-cell;height:168px;width:370px;vertical-align:middle;font-weight:500}
+
+
