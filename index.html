@@ -24,13 +24,15 @@
 	<link rel="stylesheet" href="css/media.css">   
 </head>
 <body>
-	<!-- PAGE WRAPPER -->
-<div class="page_wrapper">
-     <header class="main_header split_header">
-     	<div class="bottom_wrapper">
-			<div class="container">
-				 <a href="/" class="logo"></a>
-				<div class="navbar navbar-default navbar-static-top">
+
+
+	<div id="global-wrapper">
+	<!-- Start: Header -->
+
+	<header id="header" class="arrow-jump-label">
+          <div class="container">
+          
+				<nav class="navbar navbar-default navbar-static-top">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
 							<span class="sr-only">Открыть меню</span>
@@ -39,8 +41,9 @@
 							<span class="icon-bar"></span>
 						</button>
 					</div>
-					
+					<a href="/" class="logotip"></a>
 					<div class="collapse navbar-collapse" id="responsive-menu">
+							
                        
 						<ul class="nav navbar-nav">
 							<li><a href="/">Главная</a></li>
@@ -50,13 +53,34 @@
 							<li><a href="/#about">Гарантии</a></li>
 						</ul>
 					</div>
+				</nav>
+			</div>
+	<div class="centered">
+		<!-- Slider -->
+		<section class="main_section split_main_section">		
+			<div class="container">
+				<div class="wrapper">	
+					<div id="header-slider">
+			<img src="img\slide1.jpg" alt="" class="header-slide">
+			<img src="img\slide2.jpg" alt="" class="header-slide">
+			<img src="img\slide3.jpg" alt="" class="header-slide">
+			<img src="img\slide4.jpg" alt="" class="header-slide">
+		</div>
 				</div>
 			</div>
-		</div>
+			
 		
-<div class="header-text">
-	<!-- Logo -->
-			<a href="/" class="short_info">
+	</section>
+		<!-- <div class="decor"></div> -->
+
+		<!-- Overlay -->
+		<div class="header-overlay"></div>
+
+		<!-- Text -->
+		<div class="header-text">
+
+			<!-- Logo -->
+			<a href="#main" class="logo si-jump">
 				<span class="yellow">Home Climate </span>
 				<span class="logo-line"></span>
 				Высокий уровень Вашего комфорта!
@@ -73,41 +97,28 @@
 				<button type="button" class="callback_btn" data-toggle="modal" data-target="#main_modal"><span>Оставить заявку</span></button>
 			</div>
 
+		</div>
 
 		<!-- Phone block -->
-		
+		<div class="si-phone">
+			<a href="tel:84236799766" class="phone-link">+7 (4236) 799-766  </a><br>
+			<a href="tel:89140690228" class="phone-link">+7 914 069-02-28  </a><br>
+			<a href="#" class="open-phone-modal-1 modal-link" data-extra="1">Заказать консультацию</a>
+		</div>
 
 		<!-- Next -->
 		<a href="#we" class="si-jump header-jump"></a>
 
-		
-</div>
-<div class="si-phone">
-			<a href="tel:84236799766" class="phone-link">+7 (4236) 799-766  </a><br>
-			<a href="tel:89140690228" class="phone-link">+7 914 069-02-28  </a><br>
-			<a href="#" class="open-phone-modal-1 modal-link" data-extra="1" style="display: none!important;">Заказать консультацию</a>
-		</div>
-		
+	</div>
 	</header>
 
-	<!-- END HEADER -->
 
-	
 
-	<!-- MAIN SECTION -->
 
-	<section class="main_section split_main_section">
-		<div class="shadow">
-			<div class="container">
-				<div class="wrapper">	
-					
-				</div>
-			</div>
-			<div class="decor"></div>
-		</div>
-	</section>
 
-	<!-- END MAIN SECTION -->
+
+
+
 
 
 
@@ -1936,6 +1947,12 @@
 
 	<![endif]-->
 	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+
+		<script src="js/jquery-migrate-1.2.1.min.js"> </script>
+		<!-- JS Scripts -->
+		<script src="js/plugins_all.js"> </script>
+		<script src="js/jquery.easing.js"> </script>
+	<script src="js/slider.js"> </script>
 	<script src="libs/jqueryui/jquery-ui.min.js"></script>
 	<script src="libs/bootstrap/bootstrap.js"></script>
 	<script src="ibs/bootstrap/bootstrap-hover-dropdown.min.js"></script>
